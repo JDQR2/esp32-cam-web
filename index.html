@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESP32 CAM - Imagen en Vivo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        img {
+            width: 100%;  /* Hace que la imagen se ajuste al tamaño de la pantalla */
+            max-width: 600px;  /* Limita el tamaño máximo de la imagen */
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagen Capturada desde ESP32 CAM</h1>
+    <img src="http://ip_del_esp32_cam/capture" alt="Imagen desde ESP32 CAM">
+    <p>Actualización cada 5 segundos...</p>
+</body>
+</html>
